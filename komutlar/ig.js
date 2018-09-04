@@ -5,7 +5,7 @@ exports.run = function(client, message) {
  
     const embed = new Discord.RichEmbed()
         .setDescription("**ISTIKLAL GAMING**")
-        .setImage("https://cdn.discordapp.com/icons/462629397644443668/02f06aa5ae63941fd9dfaf66fc16ec69.jpg")
+        .setImage("https://i.hizliresim.com/7DJQ7W.jpg")
         .setThumbnail("https://cdn.discordapp.com/icons/462629397644443668/02f06aa5ae63941fd9dfaf66fc16ec69.jpg")
         .setColor(0x00AE86)
         .addField("Yönetici", "Serkan Tuna", true)
