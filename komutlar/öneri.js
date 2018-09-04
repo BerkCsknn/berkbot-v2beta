@@ -19,7 +19,7 @@ exports.run = function(client, message, args) {
 			.addField("Öneri", öneri)
 		
 		client.guilds.get(guildID).channels.get(channelID).send(embed);
-		msg.reply("Öneriniz alınmıştır! Teşekkür ederiz.");
+		message.channel.send("Öneriniz alınmıştır! Teşekkür ederiz.");
 	};
 
 
