@@ -5,7 +5,7 @@ exports.run = function(client, message, args) {
 
 	var öneri = args.slice(0).join(' ');
 	var guildID = "462629397644443668";
-	var channelID = "486658831565455381";
+	var channelID = "486661085194092553";
 	
 	if (!öneri){
 		return message.reply("Bir mesaj belirtin! Doğru kullanım: **-öneri <mesaj>**");
