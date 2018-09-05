@@ -13,7 +13,7 @@ exports.run = function(client, message, args) {
 		
 		var embed = new Discord.RichEmbed()
 			.setTimestamp()
-			.addField("Eylem:", "Öneri")
+			.addField("Eylem:", "Öneri @everyone")
 			.addField("Kullanıcı:", message.author.tag)
 			.addField("ID", message.author.id)
 			.addField("Öneri", öneri)
