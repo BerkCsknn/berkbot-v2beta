@@ -8,12 +8,13 @@ exports.run = function(client, message) {
         .setImage("https://cdn.discordapp.com/icons/462629397644443668/02f06aa5ae63941fd9dfaf66fc16ec69.jpg")
         .setThumbnail("https://cdn.discordapp.com/icons/462629397644443668/02f06aa5ae63941fd9dfaf66fc16ec69.jpg")
         .setColor(0x00AE86)
-        .addField("Yönetici", "Serkan Tuna", true)
+        .addField("Neden Biz?", "İstiklal Gamıng bünyesinde bulundurduğu sunucularla sizlerin daha kaliteli ve keyifli oynamasını eglenceli vakit geçirmenizi hedefler.
+", true)
         .addField("Özellikler", `
         *Türkiye'de neredeyse sadece biz kendi kodlarımızı yazıyoruz
    *En aktif yönetim ekibine sahibiz
    `, true)
-   .addField("Serkan Tuna", `Genç Yazılımcımız (Kurucu)`, true)
+   .addField("Yönetici", `Genç Yazılımcımız (Kurucu)`, true)
    .addField("ISTIKLAL GAMING", "Gelmeyi Unutma")
    
 
