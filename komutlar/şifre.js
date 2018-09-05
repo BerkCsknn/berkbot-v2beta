@@ -14,7 +14,7 @@ exports.run = function(client, message, args) {
         numbers: true,
     })
 
-   msg.author.sendMessage (password);
+  message.channel.send(password);
 };  
 
 exports.conf = {
