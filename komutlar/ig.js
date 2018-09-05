@@ -29,6 +29,6 @@ exports.conf = {
 
 exports.help = {
   name: 'ig', 
-  description: 'Istiklal Gaming hakkında bilgi verir',
+  description: 'Istiklal Gaming hakkında bilgi verir./KATILMAYI UNUTMA',
   usage: 'ig'
 };
