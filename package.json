@@ -1,6 +1,6 @@
 {
   "name": "BerkBOT",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "V1",
   "main": "bot.js",
   "scripts": {
