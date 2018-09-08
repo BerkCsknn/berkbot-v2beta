@@ -40,6 +40,6 @@ exports.conf = {
 
 exports.help = {
   name: 'unban',
-  description: 'İstediğiniz kişinin banını kaldırır.',
+  description: 'Sadece adminler kullanabilir.',
   usage: 'unban [kullanıcı] [sebep]'
 };
