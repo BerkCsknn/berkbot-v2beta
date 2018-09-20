@@ -11,8 +11,8 @@ exports.run = (client, message, args) => {
   let guild = message.guild
   let reason = args.slice(1).join(' ');
   let user = message.mentions.users.first();
-  let modlog = guild.channels.find('name', 'uyarılar');
-  if (!modlog) return message.reply('`uyarılar` kanalını bulamıyorum.');
+  let modlog = guild.channels.find('name', '❗-admin-uyarı');
+  if (!modlog) return message.reply('`❗-admin-uyarı` kanalını bulamıyorum.');
   if (reason.length < 1) return message.reply('Uyarı sebebini yazmalısın.');
   if (message.mentions.users.size < 1) return message.reply('Kimi uyaracağını yazmalısın.').catch(console.error);
   const embed = new Discord.RichEmbed()
