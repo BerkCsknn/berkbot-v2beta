@@ -100,9 +100,9 @@ client.on("guildMemberAdd", member => {
 	
 	member.addRole(role); 
 	
-	channel.send(member + " artık " + role + " rolü ile aramızda");
+	channel.send(member + " artık " + role + " rolü ile aramızda.Kayıt Yaptırmayı Unutmayınız");
 	
-	member.send("Aramıza hoş geldin! Artık Lütfen Kayıt Olunuz !!! rolüne sahipsin!")
+	member.send("Aramıza hoş geldin! Artık Lütfen Kayıt Olunuz !!! rolüne sahipsin! Lütfen Kayıt Yaptır")
 	
 });
 
