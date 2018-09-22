@@ -14,7 +14,7 @@ exports.run = (client, message) => {
     .setColor(0x00AE86)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .setDescription('Bot sürümü: v2' + ayarlar.surum + ' Yapımcı: Taha Berk Coskun **AVCI**\n\n_**BOTU EKLEMEK İÇİN LİNK:**_\n\nhttps://discordapp.com/oauth2/authorize?client_id=486247555445948418&scope=bot&permissions=2146958847 \n\n_**Linkler:**_\n\n**TheCatShot** sunucusunun davet linki: https://discord.gg/zYGBgBT \nBotun davet linki: https://discordapp.com/oauth2/authorize?client_id=486247555445948418&scope=bot&permissions=2146958847 \n\n**:copyright: 2017 TahaBerkCoskun**');
+    .setDescription('Bot sürümü: v' + ayarlar.surum + ' Yapımcı: Taha Berk Coskun **AVCI**\n\n_**BOTU EKLEMEK İÇİN LİNK:**_\n\nhttps://discordapp.com/oauth2/authorize?client_id=486247555445948418&scope=bot&permissions=2146958847 \n\n_**Linkler:**_\n\n**TheCatShot** sunucusunun davet linki: https://discord.gg/zYGBgBT \nBotun davet linki: https://discordapp.com/oauth2/authorize?client_id=486247555445948418&scope=bot&permissions=2146958847 \n\n**:copyright: 2017 TahaBerkCoskun**');
     return message.author.sendEmbed(pingozel)
 };
 
