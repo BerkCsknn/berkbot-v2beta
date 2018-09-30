@@ -83,7 +83,7 @@ client.on('message', msg => {
 		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
 			msg.channel.send('Geliştirici Ekibi➡️  Berk COŞKUN,Arda AYDIN,Ceyhun ÇATAK,Görkem,Alp Ü.,Efe,Muti'); 
 		} else {
-		msg.channel.send('member Geliştirici Ekibi➡️  Berk COŞKUN,Arda AYDIN,Ceyhun ÇATAK,Görkem,Alp Ü.,Efe,Muti');
+		msg.channel.send(' Geliştirici Ekibi➡️  Berk COŞKUN,Arda AYDIN,Ceyhun ÇATAK,Görkem,Alp Ü.,Efe,Muti');
 		}
 	}
 });
